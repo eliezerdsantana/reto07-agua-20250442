@@ -83,10 +83,10 @@ El [registro de entorno](../../resultados/windows/ejecucion_20261006_103035_034/
 | Windows | Microsoft Windows NT 10.0.26200.0 |
 | SHA256 del fuente local | `2d72e6b691d09807e50d278a3a8c435b87c389657f07dc45ed3dd20edb97c877` |
 
-La huella del fuente coincide con el contenido de `20250442.c` publicado al representarlo con los saltos de línea CRLF de Windows. El programa no cambió desde la ejecución.
+La huella del fuente corresponde a `20250442.c` de la versión `5d5f836`, representado con los saltos de línea CRLF de Windows. Después se actualizó únicamente el comentario del encabezado para incorporar el enlace de la actividad y el día de clase; las instrucciones del programa permanecen idénticas. Los registros conservan la huella de la versión ejecutada.
 
 La regla `.gitattributes` añadida dentro de la carpeta de resultados conserva sus saltos de línea al incorporarlos a Git. Se verificó que las salidas publicadas mantienen CRLF.
 
-La compilación, los 19 casos y la publicación de sus archivos están completados. Siguen pendientes los datos del encabezado, la preparación de la explicación del algoritmo y la confirmación del acceso del profesor y los requisitos de entrega.
+La compilación, los 19 casos y la publicación de sus archivos están completados. El enlace de la actividad y el día de clase ya están incorporados al encabezado. Siguen pendientes el número oficial de sección, la preparación de la explicación del algoritmo y la confirmación del acceso del profesor y los requisitos de entrega.
 
 No se modificaron el algoritmo, el script ni los datos de prueba para registrar este resultado. El ejecutable está excluido del repositorio; se conservan el fuente y las evidencias.

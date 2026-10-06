@@ -8,7 +8,7 @@ Se ejecutó un caso por proceso. La salida se comparó byte por byte con el arch
 
 También se compiló con `-fsanitize=undefined,bounds -fno-sanitize-recover=all` y se ejecutaron los mismos 19 casos. No se detectaron errores de comportamiento indefinido ni de límites de arreglos en esas ejecuciones.
 
-La versión con encabezado obligatorio y comentarios ampliados se recompiló sin advertencias y volvió a pasar las 19 comparaciones exactas. La sección y el enlace de la actividad siguen pendientes de confirmación en el encabezado.
+La versión con encabezado obligatorio y comentarios ampliados se recompiló sin advertencias y volvió a pasar las 19 comparaciones exactas. El enlace de la actividad se completó posteriormente en el encabezado; el número de sección sigue pendiente de confirmación.
 
 ## Resultado
 
@@ -78,8 +78,12 @@ Los 19 archivos `.stderr.txt` y [el registro de compilación](resultados/windows
 
 [El entorno](resultados/windows/ejecucion_20261006_103035_034/entorno.txt) registra la ejecución del 06/10/2026 a las 10:30:35, con zona UTC−04:00, GCC 16.1.0 de MSYS2, Git 2.56.0.windows.2 y PowerShell 5.1.26100.9444. La versión del repositorio probada fue `5d5f836`.
 
-La huella SHA256 registrada del fuente, `2d72e6b691d09807e50d278a3a8c435b87c389657f07dc45ed3dd20edb97c877`, coincide con `20250442.c` al usar los saltos de línea CRLF de su copia de Windows. El contenido del programa permanece sin cambios desde esa ejecución.
+La huella SHA256 registrada del fuente, `2d72e6b691d09807e50d278a3a8c435b87c389657f07dc45ed3dd20edb97c877`, corresponde a `20250442.c` de la versión `5d5f836`, con los saltos de línea CRLF de su copia de Windows. La actualización posterior del encabezado incorpora el enlace de la actividad y el día de clase; las instrucciones del programa permanecen idénticas. Los archivos de esta ejecución conservan la identificación de la versión probada.
 
 El commit de publicación incorpora 42 archivos: 19 salidas, 19 registros de errores, tres registros generales y una regla `.gitattributes` que conserva los saltos de línea de esta evidencia.
+
+## Actualización posterior del encabezado — 06/10/2026
+
+Se incorporaron el enlace de la actividad y el dato conocido del grupo, clase los miércoles. Se comprobó que todo el texto posterior al comentario inicial es idéntico a la versión anterior. La revisión de sintaxis con `gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -fsyntax-only 20250442.c`, realizada en Linux, terminó con código 0 y sin diagnósticos. Esta comprobación verifica el ajuste del encabezado; no registra una nueva ejecución de los 19 casos.
 
 `BITACORA.md` vincula estos avances con su evidencia y sus pendientes.

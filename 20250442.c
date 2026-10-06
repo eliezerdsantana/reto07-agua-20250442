@@ -2,10 +2,10 @@
  * Programación para mecatrónicos
  * Nombre: Eliezer Daniels Santana
  * Matrícula: 20250442
- * Sección: PENDIENTE DE CONFIRMAR
+ * Sección: PENDIENTE DE CONFIRMAR (clase de los miércoles)
  * Práctica: Code Challenge - Primer parcial - Reto 07
  * Fecha: 05/10/2026
- * Link práctica: PENDIENTE - enlace real de esta actividad
+ * Link práctica: https://aulavirtual.itla.edu.do/mod/assign/view.php?id=253496
  ********************************************************************/
 
 #include <stdio.h>

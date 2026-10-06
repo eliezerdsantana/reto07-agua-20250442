@@ -5,7 +5,7 @@
 1. Conservar la carpeta anterior de tu computadora.
 2. Iniciar sesión en tu cuenta de GitHub y configurar GitHub Desktop.
 3. Clonar el repositorio publicado en una carpeta nueva.
-4. Completar el encabezado con tu sección y el enlace real del Code Challenge.
+4. Confirmar el número oficial de sección en el encabezado; el enlace de la actividad ya está incorporado.
 5. Ejecutar las pruebas en tu computadora y registrar evidencias y avances reales.
 6. Preparar la explicación del programa y entregar el enlace y los archivos solicitados.
 
@@ -52,7 +52,7 @@ El repositorio es privado. Confirma qué acceso necesita el profesor para evalua
 
 ## 6. Abrir y probar en VS Code
 
-En VS Code, usa Archivo > Abrir carpeta y selecciona la carpeta del proyecto. Abre `20250442.c` y completa la sección y el enlace de la actividad en el encabezado.
+En VS Code, usa Archivo > Abrir carpeta y selecciona la carpeta del proyecto. Abre `20250442.c` y confirma el número oficial de sección en el encabezado. Ya están incorporados el enlace de la actividad y el dato conocido del grupo: clase los miércoles.
 
 Abre una terminal de VS Code. Comprueba si tienes GCC:
 

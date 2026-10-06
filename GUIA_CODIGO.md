@@ -2,7 +2,7 @@
 
 ## Encabezado y documentación obligatorios
 
-El profesor exige el encabezado de identificación: sin él, indica que la nota es cero. El archivo incluye nombre, matrícula, sección, práctica, fecha y enlace de la actividad. La sección y el enlace real están marcados PENDIENTE porque todavía no se han confirmado. Hay que completarlos antes de entregar.
+El profesor exige el encabezado de identificación: sin él, indica que la nota es cero. El archivo incluye nombre, matrícula, sección, práctica, fecha y enlace de la actividad. El enlace de la actividad ya está incorporado con la dirección proporcionada por el estudiante. La sección sigue PENDIENTE DE CONFIRMAR y se registra el dato conocido: la clase es los miércoles. El día de clase no determina el número oficial de sección; ese número debe confirmarse antes de entregar.
 
 El comentario situado encima de `main` describe lo que hace, sus entradas por consola y su retorno. La función se declara `main(void)`, de modo que no recibe parámetros. Los números de la matriz se leen con `scanf` desde la entrada estándar. La versión actual retorna cero al terminar; si encuentra datos inválidos, comunica esa situación mediante el texto `ERROR`.
 

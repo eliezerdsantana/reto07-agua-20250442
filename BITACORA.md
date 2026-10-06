@@ -125,6 +125,32 @@ Se actualizaron el README, el registro de resultados, el detalle de la comprobac
 
 La compilación, los 19 casos y su publicación están completados. Siguen pendientes la sección y el enlace real de la actividad en el encabezado, la preparación de la explicación del algoritmo y la confirmación del acceso del profesor y los requisitos de entrega.
 
+## 06/10/2026 — Incorporación del enlace de la actividad y el día de clase
+
+### Datos recibidos y cambio realizado
+
+El estudiante proporcionó el enlace [Code Challenge en el Aula Virtual](https://aulavirtual.itla.edu.do/mod/assign/view.php?id=253496) e indicó que su clase es los miércoles. No conoce todavía el número oficial de sección.
+
+Se sustituyó el enlace pendiente del encabezado por esa dirección. La sección conserva `PENDIENTE DE CONFIRMAR` y añade `clase de los miércoles`, que es el dato disponible. El día de clase no permite deducir el número de sección.
+
+### Justificación y comprobación
+
+El enlace identifica la actividad del curso y permite completar ese campo con el dato proporcionado. La sección se mantiene pendiente para distinguir el día conocido del identificador aún no confirmado.
+
+Se comprobó que todo el texto posterior al comentario inicial de `20250442.c` es idéntico al de la versión anterior. La revisión de sintaxis se realizó en Linux con:
+
+```text
+gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -fsyntax-only 20250442.c
+```
+
+El comando terminó con código 0 y sin diagnósticos. Esta revisión corresponde a la modificación del encabezado; no es una nueva ejecución de las 19 pruebas.
+
+Se actualizaron el README y las guías para reflejar el enlace incorporado y la sección aún pendiente. Los documentos de resultados precisan que las evidencias de Windows corresponden a la versión `5d5f836`, con el encabezado anterior. Sus instrucciones de C son las mismas y los registros conservan la fecha, la versión y la huella originales.
+
+### Pendientes
+
+Confirmar el número oficial de sección, preparar la explicación del algoritmo y confirmar el acceso del profesor y los requisitos de entrega. El enlace de la actividad ya está incorporado.
+
 ## Cómo registrar un avance siguiente
 
 Añadir una entrada cuando el trabajo se haya realizado, usando la fecha real. Cada entrada debe indicar qué cambió, por qué se hizo, cómo se comprobó y qué sigue pendiente. El commit correspondiente debe describir ese cambio concreto. Una tarea pendiente no debe anotarse como terminada.
