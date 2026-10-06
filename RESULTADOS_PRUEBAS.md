@@ -54,4 +54,14 @@ La versión con encabezado obligatorio y comentarios ampliados se recompiló sin
 
 Las entradas y salidas esperadas de las dos pruebas propias, junto con sus justificaciones, se documentan en PRUEBAS_PROPIAS.md. La prueba de escritorio se documenta en PRUEBA_ESCRITORIO.md.
 
-Estos resultados describen las ejecuciones realizadas con GCC en Linux. El proyecto ya está publicado en GitHub. La compilación y las pruebas en la computadora del estudiante siguen pendientes; sus resultados deberán guardarse como evidencia nueva, indicando el entorno y los comandos utilizados. `BITACORA.md` registra la revisión de esta evidencia y los próximos avances.
+Los resultados de la tabla corresponden a las ejecuciones realizadas con GCC en Linux. El proyecto ya está publicado en GitHub.
+
+## Primera comprobación en Windows — 06/10/2026
+
+En la computadora del estudiante, Git fue reconocido por PowerShell y el programa se compiló con `gcc -std=c11 -Wall -Wextra 20250442.c -o reto.exe`, sin errores ni advertencias visibles. Se ejecutó el caso 16 y se revisó la salida de su captura línea por línea frente a `pruebas/caso_16.out`; el texto visible coincide.
+
+La evidencia y la justificación están en [Primera comprobación local en Windows](evidencias/windows/PRIMERA_PRUEBA.md). El cotejo visual de esa captura no comprueba los bytes del archivo de salida.
+
+La repetición completa de los 19 casos en Windows sigue pendiente. Se preparó `verificar_pruebas_windows.ps1` para guardar nuevas salidas y su comparación, normalizando solo CRLF a LF. Todavía no se registra un resultado de esa ejecución.
+
+`BITACORA.md` vincula estos avances con su evidencia y sus pendientes.

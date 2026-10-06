@@ -14,6 +14,8 @@ Eliezer Daniels Santana — Matrícula 20250442.
 | `BITACORA.md` | Revisiones, decisiones justificadas y avances con su evidencia |
 | `pruebas/` | 17 pares oficiales y dos pares propios de entrada/salida |
 | `resultados/` | Salidas reales obtenidas y registro de compilación |
+| `evidencias/windows/` | Captura y registro de la compilación local y del caso 16 |
+| `verificar_pruebas_windows.ps1` | Comprobación de los 19 casos y guardado de nuevas salidas en Windows |
 | `material_original/` | Enunciado, rúbrica y datos originales de esta matrícula |
 | `GUIA_CODIGO.md` | Explicación del programa para estudiar |
 
@@ -64,6 +66,16 @@ COLUMNAS 0 0 1 0 0
 PRIORIDAD 3
 COLUMNA 3
 ```
+
+El 06/10/2026 se compiló el programa y se ejecutó el caso 16 en la computadora del estudiante. La [captura y el registro](evidencias/windows/PRIMERA_PRUEBA.md) muestran la salida comprobada visualmente. La repetición completa de los 19 casos en Windows sigue pendiente.
+
+Para realizar esa comprobación desde PowerShell:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\verificar_pruebas_windows.ps1
+```
+
+El script vuelve a compilar y guarda una carpeta nueva en `resultados/windows/` con el entorno, los diagnósticos de compilación, las salidas de los 19 casos y el resumen. La comparación conserva todo el texto y normaliza solo CRLF a LF. Antes de registrar el avance, revisa el resumen real y cualquier caso marcado `REVISAR`.
 
 También se pueden escribir directamente los datos numéricos en la consola al ejecutar el programa. No aparece una pregunta para pedirlos porque el formato de salida lo prohíbe. Cada ejecución procesa un solo caso.
 

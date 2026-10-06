@@ -53,6 +53,28 @@ La prueba de escritorio y las dos pruebas propias incluyen entrada, salida esper
 | Explicar y revisar el algoritmo por bloques. | Justificar la validación, la regla, las rachas y los desempates. | Notas de comprensión y recorrido manual de una entrada. |
 | Confirmar acceso del profesor y requisitos de entrega. | El repositorio es privado y la actividad indica 10 puntos, mientras que el PDF presenta 25. | Acceso confirmado y requisitos aclarados antes de entregar. |
 
+## 06/10/2026 — Preparación de Windows, compilación y caso 16
+
+### Trabajo realizado y motivo
+
+La terminal PowerShell no reconocía Git. Se instaló Git para Windows y se eligió su uso desde la línea de comandos y aplicaciones externas. Tras cerrar y abrir Visual Studio Code, `git --version` mostró `git version 2.56.0.windows.2`.
+
+Se compiló el programa desde la carpeta del repositorio con `gcc -std=c11 -Wall -Wextra 20250442.c -o reto.exe`. La compilación regresó al indicador de la terminal sin errores ni advertencias visibles y creó el ejecutable.
+
+Se ejecutó `cmd /c "reto.exe < pruebas\caso_16.in"`. La revisión de la salida visible frente a `pruebas/caso_16.out` mostró coincidencia en las seis líneas del informe. El único evento está en la fila 3, columna 3: 1 < 13 y 45 >= 15, con impacto 44.
+
+### Evidencia y alcance
+
+La captura y los detalles están en [Primera comprobación local en Windows](evidencias/windows/PRIMERA_PRUEBA.md). Es una ejecución real en la computadora del estudiante; el cotejo realizado a partir de esa captura es visual.
+
+Se añadió `verificar_pruebas_windows.ps1` para facilitar la comprobación completa: compila, ejecuta los 19 casos y guarda los resultados en una carpeta nueva por ejecución. Su ejecución en Windows sigue pendiente. La comparación normaliza únicamente CRLF a LF y conserva el resto del formato.
+
+### Cambios y pendientes
+
+Se incorporaron la captura original, el registro de esta prueba y el script de comprobación. Se actualizaron el README y el documento de resultados para reflejar la compilación local y el caso 16 comprobados. El algoritmo y los datos de prueba permanecen sin cambios.
+
+La compilación local ya está completada. La ejecución y comparación de los 19 casos en Windows, los dos campos del encabezado, la preparación de la explicación del algoritmo y la confirmación del acceso del profesor siguen pendientes.
+
 ## Cómo registrar un avance siguiente
 
 Añadir una entrada cuando el trabajo se haya realizado, usando la fecha real. Cada entrada debe indicar qué cambió, por qué se hizo, cómo se comprobó y qué sigue pendiente. El commit correspondiente debe describir ese cambio concreto. Una tarea pendiente no debe anotarse como terminada.
