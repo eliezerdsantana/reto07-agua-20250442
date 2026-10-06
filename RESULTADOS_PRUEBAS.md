@@ -62,6 +62,12 @@ En la computadora del estudiante, Git fue reconocido por PowerShell y el program
 
 La evidencia y la justificación están en [Primera comprobación local en Windows](evidencias/windows/PRIMERA_PRUEBA.md). El cotejo visual de esa captura no comprueba los bytes del archivo de salida.
 
-La repetición completa de los 19 casos en Windows sigue pendiente. Se preparó `verificar_pruebas_windows.ps1` para guardar nuevas salidas y su comparación, normalizando solo CRLF a LF. Todavía no se registra un resultado de esa ejecución.
+## Comprobación completa en Windows — 06/10/2026
+
+Se ejecutó `verificar_pruebas_windows.ps1` en la laptop del estudiante. La captura muestra los 17 casos oficiales y los dos propios con `COINCIDE CODIGO 0`, y el resumen final `Resultado: 19 de 19 casos coinciden.`.
+
+La comparación del script normaliza únicamente CRLF a LF y conserva el resto del texto, incluido el salto final. Para registrar coincidencia exige además código de salida 0 y una salida de errores vacía. El resultado de Windows se registra a partir de la captura del verificador; la comparación byte por byte descrita al inicio corresponde a las ejecuciones anteriores en Linux.
+
+La [captura original y los detalles de la ejecución](evidencias/windows/PRUEBAS_COMPLETAS.md) ya están incorporados. La carpeta local indicada es `resultados/windows/ejecucion_20261006_103035_034`. Sus archivos de entorno, compilación, salidas y resumen siguen pendientes de subir a GitHub y revisar.
 
 `BITACORA.md` vincula estos avances con su evidencia y sus pendientes.

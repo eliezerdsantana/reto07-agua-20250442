@@ -14,7 +14,7 @@ Eliezer Daniels Santana — Matrícula 20250442.
 | `BITACORA.md` | Revisiones, decisiones justificadas y avances con su evidencia |
 | `pruebas/` | 17 pares oficiales y dos pares propios de entrada/salida |
 | `resultados/` | Salidas reales obtenidas y registro de compilación |
-| `evidencias/windows/` | Captura y registro de la compilación local y del caso 16 |
+| `evidencias/windows/` | Capturas y registros de la compilación local, del caso 16 y de los 19 casos en Windows |
 | `verificar_pruebas_windows.ps1` | Comprobación de los 19 casos y guardado de nuevas salidas en Windows |
 | `material_original/` | Enunciado, rúbrica y datos originales de esta matrícula |
 | `GUIA_CODIGO.md` | Explicación del programa para estudiar |
@@ -67,9 +67,11 @@ PRIORIDAD 3
 COLUMNA 3
 ```
 
-El 06/10/2026 se compiló el programa y se ejecutó el caso 16 en la computadora del estudiante. La [captura y el registro](evidencias/windows/PRIMERA_PRUEBA.md) muestran la salida comprobada visualmente. La repetición completa de los 19 casos en Windows sigue pendiente.
+El 06/10/2026 se compiló el programa y se comprobó visualmente el caso 16 en la computadora del estudiante; esa [primera prueba](evidencias/windows/PRIMERA_PRUEBA.md) está documentada. Después se ejecutó el verificador completo: las 17 pruebas oficiales y las dos propias mostraron coincidencia, todas con código de salida 0. La [captura de los 19 casos y su registro](evidencias/windows/PRUEBAS_COMPLETAS.md) conservan ese resultado.
 
-Para realizar esa comprobación desde PowerShell:
+La ejecución guardó los archivos reales en `resultados/windows/ejecucion_20261006_103035_034` dentro de la copia local. Su incorporación a GitHub y su revisión están pendientes.
+
+Para ejecutar la comprobación desde PowerShell:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\verificar_pruebas_windows.ps1

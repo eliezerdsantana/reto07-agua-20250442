@@ -2,6 +2,8 @@
 
 Estudiante: Eliezer Daniels Santana. Matrícula: 20250442.
 
+Este registro corresponde a la primera comprobación y conserva los pendientes de ese momento. La ejecución posterior de los 19 casos está documentada en [Comprobación completa en Windows](PRUEBAS_COMPLETAS.md).
+
 ## Entorno y evidencia
 
 La prueba se realizó en la laptop del estudiante, desde la terminal PowerShell de Visual Studio Code y dentro de la carpeta del repositorio. La captura conserva los comandos y sus resultados.

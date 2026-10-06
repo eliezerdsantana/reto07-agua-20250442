@@ -75,6 +75,26 @@ Se incorporaron la captura original, el registro de esta prueba y el script de c
 
 La compilación local ya está completada. La ejecución y comparación de los 19 casos en Windows, los dos campos del encabezado, la preparación de la explicación del algoritmo y la confirmación del acceso del profesor siguen pendientes.
 
+## 06/10/2026 — Comprobación de los 19 casos en Windows
+
+### Trabajo realizado y motivo
+
+Se ejecutó `verificar_pruebas_windows.ps1` en la laptop del estudiante, desde PowerShell dentro de la carpeta del repositorio. El script recompiló el programa, ejecutó las 17 pruebas oficiales y las dos propias, y comparó sus salidas con los archivos esperados.
+
+La captura muestra `COINCIDE CODIGO 0` para cada caso y el resumen `Resultado: 19 de 19 casos coinciden.`. Esta comprobación completa la ejecución local que estaba pendiente en las entradas anteriores.
+
+### Evidencia y alcance
+
+La [captura original y su registro](evidencias/windows/PRUEBAS_COMPLETAS.md) documentan el resultado del verificador. La comparación del script es sensible a mayúsculas y conserva espacios, orden de líneas y salto final; normaliza únicamente CRLF a LF. Para marcar un caso como coincidente también exige código de salida 0 y ausencia de texto en la salida de errores.
+
+La carpeta indicada por la ejecución es `resultados/windows/ejecucion_20261006_103035_034`. Contiene las nuevas salidas y registros generados en la laptop; su incorporación a GitHub y la revisión de esos archivos siguen pendientes. La captura y el resumen visible ya se revisaron.
+
+### Cambios y pendientes
+
+Se guardó la captura original y se actualizaron el README, el registro de resultados y esta bitácora. El registro de la primera prueba enlaza ahora la comprobación posterior. No se modificaron el fuente, el script ni los datos de prueba.
+
+Los 19 casos están comprobados en Windows. Sigue pendiente subir los archivos reales de esa ejecución, completar sección y enlace de la actividad en el encabezado, preparar la explicación del algoritmo y confirmar el acceso del profesor y los requisitos de entrega.
+
 ## Cómo registrar un avance siguiente
 
 Añadir una entrada cuando el trabajo se haya realizado, usando la fecha real. Cada entrada debe indicar qué cambió, por qué se hizo, cómo se comprobó y qué sigue pendiente. El commit correspondiente debe describir ese cambio concreto. Una tarea pendiente no debe anotarse como terminada.
