@@ -54,4 +54,4 @@ La versión con encabezado obligatorio y comentarios ampliados se recompiló sin
 
 Las entradas y salidas esperadas de las dos pruebas propias, junto con sus justificaciones, se documentan en PRUEBAS_PROPIAS.md. La prueba de escritorio se documenta en PRUEBA_ESCRITORIO.md.
 
-Estos resultados describen las ejecuciones realizadas con GCC en este entorno. La compilación en la computadora del estudiante y la publicación en GitHub quedan pendientes de realizar allí o en el repositorio seleccionado.
+Estos resultados describen las ejecuciones realizadas con GCC en Linux. El proyecto ya está publicado en GitHub. La compilación y las pruebas en la computadora del estudiante siguen pendientes; sus resultados deberán guardarse como evidencia nueva, indicando el entorno y los comandos utilizados. `BITACORA.md` registra la revisión de esta evidencia y los próximos avances.
