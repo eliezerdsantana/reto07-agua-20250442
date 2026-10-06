@@ -66,8 +66,20 @@ La evidencia y la justificación están en [Primera comprobación local en Windo
 
 Se ejecutó `verificar_pruebas_windows.ps1` en la laptop del estudiante. La captura muestra los 17 casos oficiales y los dos propios con `COINCIDE CODIGO 0`, y el resumen final `Resultado: 19 de 19 casos coinciden.`.
 
-La comparación del script normaliza únicamente CRLF a LF y conserva el resto del texto, incluido el salto final. Para registrar coincidencia exige además código de salida 0 y una salida de errores vacía. El resultado de Windows se registra a partir de la captura del verificador; la comparación byte por byte descrita al inicio corresponde a las ejecuciones anteriores en Linux.
+La comparación del script normaliza únicamente CRLF a LF y conserva el resto del texto, incluido el salto final. Para registrar coincidencia exige además código de salida 0 y una salida de errores vacía. El resultado inicial de Windows se registró a partir de la captura del verificador; la revisión posterior de sus archivos se detalla al final. La comparación byte por byte descrita al inicio corresponde a las ejecuciones anteriores en Linux.
 
-La [captura original y los detalles de la ejecución](evidencias/windows/PRUEBAS_COMPLETAS.md) ya están incorporados. La carpeta local indicada es `resultados/windows/ejecucion_20261006_103035_034`. Sus archivos de entorno, compilación, salidas y resumen siguen pendientes de subir a GitHub y revisar.
+La [captura original y los detalles de la ejecución](evidencias/windows/PRUEBAS_COMPLETAS.md) están incorporados. Los archivos generados en la laptop se publicaron en [resultados de Windows](resultados/windows/ejecucion_20261006_103035_034) mediante el commit `00366ac`.
+
+## Revisión de los archivos publicados — 06/10/2026
+
+Se cotejaron directamente las 19 salidas `.actual` publicadas con sus correspondientes `pruebas/*.out`. Todas coinciden después de normalizar exclusivamente CRLF a LF. Se conservaron espacios, mayúsculas, orden de líneas y salto final.
+
+Los 19 archivos `.stderr.txt` y [el registro de compilación](resultados/windows/ejecucion_20261006_103035_034/compilacion.txt) están vacíos. [El resumen](resultados/windows/ejecucion_20261006_103035_034/resumen.txt) registra código de salida 0 para la compilación y para cada caso, y su lista corresponde exactamente a las 17 pruebas oficiales y las dos propias.
+
+[El entorno](resultados/windows/ejecucion_20261006_103035_034/entorno.txt) registra la ejecución del 06/10/2026 a las 10:30:35, con zona UTC−04:00, GCC 16.1.0 de MSYS2, Git 2.56.0.windows.2 y PowerShell 5.1.26100.9444. La versión del repositorio probada fue `5d5f836`.
+
+La huella SHA256 registrada del fuente, `2d72e6b691d09807e50d278a3a8c435b87c389657f07dc45ed3dd20edb97c877`, coincide con `20250442.c` al usar los saltos de línea CRLF de su copia de Windows. El contenido del programa permanece sin cambios desde esa ejecución.
+
+El commit de publicación incorpora 42 archivos: 19 salidas, 19 registros de errores, tres registros generales y una regla `.gitattributes` que conserva los saltos de línea de esta evidencia.
 
 `BITACORA.md` vincula estos avances con su evidencia y sus pendientes.

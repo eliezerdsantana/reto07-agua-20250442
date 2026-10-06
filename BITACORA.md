@@ -95,6 +95,36 @@ Se guardó la captura original y se actualizaron el README, el registro de resul
 
 Los 19 casos están comprobados en Windows. Sigue pendiente subir los archivos reales de esa ejecución, completar sección y enlace de la actividad en el encabezado, preparar la explicación del algoritmo y confirmar el acceso del profesor y los requisitos de entrega.
 
+## 06/10/2026 — Publicación y revisión de las evidencias de Windows
+
+### Trabajo realizado y motivo
+
+En la laptop se creó el commit `00366ac`, con el mensaje «Guardar resultados de 19 pruebas ejecutadas en Windows», y se subió a GitHub. Autor y committer figuran como `eliezerdsantana`. Su padre es `3cd8574`, por lo que el avance continúa el historial existente.
+
+El commit incorpora 42 archivos de `resultados/windows/ejecucion_20261006_103035_034`: 19 salidas obtenidas, 19 archivos de errores, registros de entorno, compilación y resumen, y una regla `.gitattributes` con `* -text`. Esta regla permite conservar los saltos de línea originales de los archivos de evidencia al registrarlos en Git.
+
+### Comprobaciones sobre los archivos publicados
+
+| Comprobación | Resultado |
+| --- | --- |
+| Salidas obtenidas frente a las esperadas | 17 oficiales y dos propias coinciden al normalizar únicamente CRLF a LF. |
+| Formato | Se conservan espacios, mayúsculas, orden de líneas y salto final. |
+| Salida de errores | Los 19 archivos están vacíos. |
+| Diagnósticos de compilación | El registro está vacío; el resumen registra código 0. |
+| Resumen | Contiene los 19 casos previstos, todos con código 0 y coincidencia. |
+| Fuente de la ejecución | Su SHA256 corresponde al programa publicado con los saltos CRLF de la copia local. |
+| Alcance del commit | Solo se incorporan los 42 archivos de evidencia; el fuente, el script y las pruebas esperadas conservan su contenido. |
+
+El registro de entorno sitúa la ejecución el 06/10/2026 a las 10:30:35 (UTC−04:00), con GCC 16.1.0 de MSYS2 y la versión `5d5f836` del repositorio. Los cambios posteriores previos a la publicación de resultados afectan a la documentación y conservan el mismo programa.
+
+Los archivos reales están en [resultados de Windows](resultados/windows/ejecucion_20261006_103035_034); la captura y el detalle están en [Comprobación completa en Windows](evidencias/windows/PRUEBAS_COMPLETAS.md). Esta revisión coteja los archivos de la ejecución ya realizada; no registra una ejecución nueva de los casos.
+
+### Cambios de documentación y pendientes
+
+Se actualizaron el README, el registro de resultados, el detalle de la comprobación completa y esta bitácora para reflejar que las evidencias ya están publicadas y revisadas.
+
+La compilación, los 19 casos y su publicación están completados. Siguen pendientes la sección y el enlace real de la actividad en el encabezado, la preparación de la explicación del algoritmo y la confirmación del acceso del profesor y los requisitos de entrega.
+
 ## Cómo registrar un avance siguiente
 
 Añadir una entrada cuando el trabajo se haya realizado, usando la fecha real. Cada entrada debe indicar qué cambió, por qué se hizo, cómo se comprobó y qué sigue pendiente. El commit correspondiente debe describir ese cambio concreto. Una tarea pendiente no debe anotarse como terminada.

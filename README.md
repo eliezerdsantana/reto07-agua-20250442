@@ -69,7 +69,7 @@ COLUMNA 3
 
 El 06/10/2026 se compiló el programa y se comprobó visualmente el caso 16 en la computadora del estudiante; esa [primera prueba](evidencias/windows/PRIMERA_PRUEBA.md) está documentada. Después se ejecutó el verificador completo: las 17 pruebas oficiales y las dos propias mostraron coincidencia, todas con código de salida 0. La [captura de los 19 casos y su registro](evidencias/windows/PRUEBAS_COMPLETAS.md) conservan ese resultado.
 
-La ejecución guardó los archivos reales en `resultados/windows/ejecucion_20261006_103035_034` dentro de la copia local. Su incorporación a GitHub y su revisión están pendientes.
+Las salidas reales, el entorno, el registro de compilación y el resumen están publicados en [resultados de Windows](resultados/windows/ejecucion_20261006_103035_034), incorporados mediante el commit `00366ac`. Se revisaron los 19 archivos de salida frente a sus esperados: todos coinciden al normalizar únicamente CRLF a LF. Los archivos de errores y el registro de compilación están vacíos.
 
 Para ejecutar la comprobación desde PowerShell:
 

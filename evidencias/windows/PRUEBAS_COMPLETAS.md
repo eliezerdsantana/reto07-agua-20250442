@@ -63,6 +63,30 @@ La carpeta indicada por la terminal es `resultados/windows/ejecucion_20261006_10
 - Un archivo `.actual` y otro `.stderr.txt` por caso: salida obtenida y salida de errores.
 - `resumen.txt`: comparaciones y resultado final.
 
-La captura y su resumen visible están revisados y guardados en el repositorio. Los archivos generados en la laptop siguen pendientes de incorporarse a GitHub y de revisión; no se han sustituido por salidas creadas a partir de esta transcripción.
+Los archivos generados en la laptop están publicados en [la carpeta de esta ejecución](../../resultados/windows/ejecucion_20261006_103035_034), incorporados en el commit `00366ac`. Se conservan las salidas reales de la ejecución.
+
+## Revisión de los archivos publicados
+
+Se revisaron directamente las 19 salidas frente a sus archivos esperados. Todas coinciden al normalizar únicamente CRLF a LF; se conserva el resto del formato. Los 19 archivos de errores están vacíos.
+
+El [registro de compilación](../../resultados/windows/ejecucion_20261006_103035_034/compilacion.txt) está vacío y el [resumen](../../resultados/windows/ejecucion_20261006_103035_034/resumen.txt) registra código 0 para la compilación y para cada uno de los 19 casos. La lista y el resultado final son coherentes con los archivos revisados.
+
+El [registro de entorno](../../resultados/windows/ejecucion_20261006_103035_034/entorno.txt) indica:
+
+| Dato | Valor registrado |
+| --- | --- |
+| Fecha de ejecución | 06/10/2026, 10:30:35, UTC−04:00 |
+| Versión del repositorio probada | `5d5f836` |
+| GCC | 16.1.0, MSYS2, Rev5 |
+| Git | 2.56.0.windows.2 |
+| PowerShell | 5.1.26100.9444 |
+| Windows | Microsoft Windows NT 10.0.26200.0 |
+| SHA256 del fuente local | `2d72e6b691d09807e50d278a3a8c435b87c389657f07dc45ed3dd20edb97c877` |
+
+La huella del fuente coincide con el contenido de `20250442.c` publicado al representarlo con los saltos de línea CRLF de Windows. El programa no cambió desde la ejecución.
+
+La regla `.gitattributes` añadida dentro de la carpeta de resultados conserva sus saltos de línea al incorporarlos a Git. Se verificó que las salidas publicadas mantienen CRLF.
+
+La compilación, los 19 casos y la publicación de sus archivos están completados. Siguen pendientes los datos del encabezado, la preparación de la explicación del algoritmo y la confirmación del acceso del profesor y los requisitos de entrega.
 
 No se modificaron el algoritmo, el script ni los datos de prueba para registrar este resultado. El ejecutable está excluido del repositorio; se conservan el fuente y las evidencias.
