@@ -1,0 +1,14 @@
+Fecha local: 2026-10-06T10:30:35.1825268-04:00
+PowerShell: 5.1.26100.9444
+Windows: Microsoft Windows NT 10.0.26200.0
+Commit local: 5d5f836aaa703d6b6c4e84beae78bcaa867d1443
+SHA256 de 20250442.c: 2D72E6B691D09807E50D278A3A8C435B87C389657F07DC45ED3DD20EDB97C877
+Git: git version 2.56.0.windows.2
+GCC: gcc.exe (Rev5, Built by MSYS2 project) 16.1.0
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilacion: gcc -std=c11 -Wall -Wextra 20250442.c -o reto.exe
+Comparacion: CRLF se convierte a LF solo para comparar.
+Se conservan mayusculas, espacios, lineas y salto final.
+Las salidas .actual se guardan sin modificar por cmd.exe.

@@ -1,0 +1,23 @@
+Compilacion: terminada con codigo 0.
+Casos previstos: 19.
+Comparacion sensible a mayusculas; solo se normaliza CRLF a LF.
+caso_01 COINCIDE CODIGO 0
+caso_02 COINCIDE CODIGO 0
+caso_03 COINCIDE CODIGO 0
+caso_04 COINCIDE CODIGO 0
+caso_05 COINCIDE CODIGO 0
+caso_06 COINCIDE CODIGO 0
+caso_07 COINCIDE CODIGO 0
+caso_08 COINCIDE CODIGO 0
+caso_09 COINCIDE CODIGO 0
+caso_10 COINCIDE CODIGO 0
+caso_11 COINCIDE CODIGO 0
+caso_12 COINCIDE CODIGO 0
+caso_13 COINCIDE CODIGO 0
+caso_14 COINCIDE CODIGO 0
+caso_15 COINCIDE CODIGO 0
+caso_16 COINCIDE CODIGO 0
+caso_17 COINCIDE CODIGO 0
+propia_01 COINCIDE CODIGO 0
+propia_02 COINCIDE CODIGO 0
+Resultado: 19 de 19 casos coinciden.
