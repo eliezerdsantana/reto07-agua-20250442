@@ -87,6 +87,6 @@ La huella del fuente corresponde a `20250442.c` de la versión `5d5f836`, repres
 
 La regla `.gitattributes` añadida dentro de la carpeta de resultados conserva sus saltos de línea al incorporarlos a Git. Se verificó que las salidas publicadas mantienen CRLF.
 
-La compilación, los 19 casos y la publicación de sus archivos están completados. El enlace de la actividad y el día de clase ya están incorporados al encabezado. Siguen pendientes el número oficial de sección, la preparación de la explicación del algoritmo y la confirmación del acceso del profesor y los requisitos de entrega.
+La compilación, los 19 casos y la publicación de sus archivos están completados. El encabezado incluye el enlace de la actividad y la sección `Miércoles`, conforme al formato del ejemplo indicado por el estudiante. Siguen pendientes la preparación de la explicación del algoritmo y la confirmación del acceso del profesor y los requisitos de entrega.
 
 No se modificaron el algoritmo, el script ni los datos de prueba para registrar este resultado. El ejecutable está excluido del repositorio; se conservan el fuente y las evidencias.

@@ -151,6 +151,24 @@ Se actualizaron el README y las guías para reflejar el enlace incorporado y la 
 
 Confirmar el número oficial de sección, preparar la explicación del algoritmo y confirmar el acceso del profesor y los requisitos de entrega. El enlace de la actividad ya está incorporado.
 
+## 06/10/2026 — Ajuste de la sección al formato del ejemplo
+
+### Cambio y justificación
+
+El estudiante indicó que el ejemplo identifica la sección con el día de clase y solicitó usar únicamente `Miércoles`. Se sustituyó la línea anterior del encabezado por `Sección: Miércoles`.
+
+La sección queda completada con ese formato. Las entradas anteriores conservan el estado de la revisión en sus momentos; a partir de este avance, la búsqueda de un número de sección deja de figurar como pendiente.
+
+### Comprobación y documentación
+
+Se comparó el texto posterior al comentario inicial de `20250442.c` con la versión anterior: es idéntico. El cambio en el fuente afecta únicamente a la línea de sección del encabezado. Los registros de las pruebas conservan la fecha, la versión y la huella del programa que se ejecutó.
+
+Se actualizaron el README, las guías y los documentos de resultados para reflejar `Miércoles` y retirar el número de sección de los pendientes actuales.
+
+### Pendientes
+
+Preparar la explicación del algoritmo y confirmar el acceso del profesor y los requisitos de entrega. El encabezado incluye los datos de identificación y el enlace de la actividad.
+
 ## Cómo registrar un avance siguiente
 
 Añadir una entrada cuando el trabajo se haya realizado, usando la fecha real. Cada entrada debe indicar qué cambió, por qué se hizo, cómo se comprobó y qué sigue pendiente. El commit correspondiente debe describir ese cambio concreto. Una tarea pendiente no debe anotarse como terminada.

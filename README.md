@@ -23,7 +23,7 @@ El programa solo usa `stdio.h`, variables, arreglos fijos, condicionales y ciclo
 
 ## Requisitos generales añadidos por el profesor
 
-El encabezado obligatorio está al principio de `20250442.c`. Ya incluye el [enlace de la actividad en el Aula Virtual](https://aulavirtual.itla.edu.do/mod/assign/view.php?id=253496) proporcionado por el estudiante. El grupo tiene clase los miércoles; el número oficial de sección sigue PENDIENTE DE CONFIRMAR y debe completarse antes de entregar.
+El encabezado obligatorio está al principio de `20250442.c`. Ya incluye el [enlace de la actividad en el Aula Virtual](https://aulavirtual.itla.edu.do/mod/assign/view.php?id=253496) proporcionado por el estudiante. La sección está registrada como `Miércoles`, según el formato del ejemplo indicado por el estudiante. El encabezado ya incluye los datos de identificación y el enlace de la actividad.
 
 El programa incluye una descripción de `main(void)`, de sus entradas por consola y de su retorno, además de comentarios en las partes que definen el algoritmo. La explicación del alumno vale el 50 % de los criterios generales compartidos; `GUIA_CODIGO.md` ayuda a prepararla.
 

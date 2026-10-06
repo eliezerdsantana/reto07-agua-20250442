@@ -8,7 +8,7 @@ Se ejecutó un caso por proceso. La salida se comparó byte por byte con el arch
 
 También se compiló con `-fsanitize=undefined,bounds -fno-sanitize-recover=all` y se ejecutaron los mismos 19 casos. No se detectaron errores de comportamiento indefinido ni de límites de arreglos en esas ejecuciones.
 
-La versión con encabezado obligatorio y comentarios ampliados se recompiló sin advertencias y volvió a pasar las 19 comparaciones exactas. El enlace de la actividad se completó posteriormente en el encabezado; el número de sección sigue pendiente de confirmación.
+La versión con encabezado obligatorio y comentarios ampliados se recompiló sin advertencias y volvió a pasar las 19 comparaciones exactas. El encabezado se actualizó posteriormente con el enlace de la actividad y la sección `Miércoles`.
 
 ## Resultado
 
@@ -85,5 +85,7 @@ El commit de publicación incorpora 42 archivos: 19 salidas, 19 registros de err
 ## Actualización posterior del encabezado — 06/10/2026
 
 Se incorporaron el enlace de la actividad y el dato conocido del grupo, clase los miércoles. Se comprobó que todo el texto posterior al comentario inicial es idéntico a la versión anterior. La revisión de sintaxis con `gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -fsyntax-only 20250442.c`, realizada en Linux, terminó con código 0 y sin diagnósticos. Esta comprobación verifica el ajuste del encabezado; no registra una nueva ejecución de los 19 casos.
+
+El campo de sección se ajustó después a `Miércoles`, siguiendo el formato del ejemplo indicado por el estudiante. Se comprobó que el texto posterior al comentario inicial sigue idéntico; las pruebas documentadas conservan sus versiones y registros originales.
 
 `BITACORA.md` vincula estos avances con su evidencia y sus pendientes.
