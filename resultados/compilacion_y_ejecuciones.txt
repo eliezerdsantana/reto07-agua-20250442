@@ -1,0 +1,32 @@
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+
+gcc -std=c11 -Wall -Wextra -Wpedantic -Werror 20250442.c -o /workspace/scratch/a895e889c550/reto
+Codigo de salida: 0
+Advertencias: ninguna
+
+gcc -std=c11 -Wall -Wextra -Wpedantic -Werror -fsanitize=undefined,bounds -fno-sanitize-recover=all 20250442.c -o /workspace/scratch/a895e889c550/reto_verificado
+Codigo de salida: 0
+Advertencias: ninguna
+caso_01: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_02: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_03: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_04: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_05: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_06: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_07: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_08: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_09: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_10: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_11: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_12: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_13: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_14: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_15: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_16: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+caso_17: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+propia_01: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+propia_02: salida exacta; comprobaciones de comportamiento indefinido y limites sin errores
+
+Version con encabezado obligatorio y documentacion ampliada:
+Compilacion C11 con Wall, Wextra, Wpedantic y Werror: correcta, sin advertencias.
+Comparacion exacta de salidas: 17 oficiales y 2 propias correctas.
