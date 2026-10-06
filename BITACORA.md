@@ -169,6 +169,24 @@ Se actualizaron el README, las guías y los documentos de resultados para reflej
 
 Preparar la explicación del algoritmo y confirmar el acceso del profesor y los requisitos de entrega. El encabezado incluye los datos de identificación y el enlace de la actividad.
 
+## 06/10/2026 — Ampliación de la guía para estudiar el programa desde cero
+
+### Trabajo realizado y motivo
+
+Se amplió [GUIA_CODIGO.md](GUIA_CODIGO.md) para explicar el programa completo con lenguaje sencillo. El estudiante solicitó una explicación desde el principio, incluyendo los símbolos y conceptos que utiliza el código.
+
+La guía utiliza el caso oficial 16 como ejemplo continuo. Explica la tabla de niveles, variables y arreglos, índices desde cero, lectura y validación, ciclos, condición de recuperación, contadores, impacto, rachas, desempates y formato de salida. Incluye el ejemplo de desempates de la prueba propia 02 y un modelo de explicación oral para practicar.
+
+### Comprobación y alcance
+
+Se cotejaron la entrada y la salida presentadas para el caso 16 con sus archivos oficiales. El recorrido identifica el evento de la fila 3, columna 3 y el impacto 44. Se revisaron las explicaciones contra el fuente actual, incluyendo el uso de long, la evaluación de && y la imposibilidad de eventos consecutivos con L <= U.
+
+Este avance modifica únicamente la guía y esta bitácora. El código fuente, los datos de prueba, el verificador y las evidencias de Windows se conservan. No se registra una nueva ejecución de las pruebas.
+
+### Pendientes
+
+Repasar la guía y preparar una explicación propia del algoritmo. La comprensión del estudiante y la defensa oral todavía no se han evaluado. También sigue pendiente confirmar el acceso del profesor y los requisitos de entrega.
+
 ## Cómo registrar un avance siguiente
 
 Añadir una entrada cuando el trabajo se haya realizado, usando la fecha real. Cada entrada debe indicar qué cambió, por qué se hizo, cómo se comprobó y qué sigue pendiente. El commit correspondiente debe describir ese cambio concreto. Una tarea pendiente no debe anotarse como terminada.
